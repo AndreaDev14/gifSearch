@@ -179,7 +179,7 @@ span i {
 
 /* error */
 .error {
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: solid;
   color: var(--white);
   text-align: center;
@@ -190,6 +190,12 @@ span i {
   text-align: center;
   text-transform: capitalize;
   font-weight: 500;
+}
+
+@media (min-width: 768px) { 
+  .error {
+    font-size: 1.5rem;
+  }
 }
 footer {
   display: flex;
