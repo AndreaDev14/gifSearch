@@ -28,12 +28,12 @@ body {
 h1 {
   color: var(--white);
   font-family: var(--font-title);
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   padding-top: 2rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--white);
   margin: 3rem 0;
@@ -163,8 +163,8 @@ span i {
 
 @media (min-width: 768px) {
   .img_size {
-    height: 30rem;
-    width: 50rem;
+    height: 20rem;
+    width: 30rem;
   }
 }
 .img_random {
@@ -172,7 +172,7 @@ span i {
 }
 @media (min-width: 768px) {
   .img_random {
-    height: 30rem;
+    height: 20rem;
     width: 50rem;
   }
 }
