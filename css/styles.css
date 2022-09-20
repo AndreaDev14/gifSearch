@@ -133,6 +133,12 @@ form {
 
 @media (min-width: 768px) {
   .btn {
+    left: 33%;
+  }
+}
+
+@media (min-width: 990px) { 
+  .btn {
     left: 22%;
   }
 }
